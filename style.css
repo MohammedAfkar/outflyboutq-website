@@ -45,6 +45,7 @@ body{
 
 .anchor-btn{
     text-decoration: none;
+    color: #f8f8f8;
 }
 
 .custom-img{
@@ -84,7 +85,7 @@ body{
     border: none;
     color: #FFFFFF;
     text-align: center;
-    padding: 1em;
+    padding: 0.8em;
     width: 12em;
     transition: all 0.5s;
     cursor: pointer;
