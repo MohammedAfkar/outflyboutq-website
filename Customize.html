@@ -5,28 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>customize</title>
     <link href="style.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-      </style>
 </head>
 <body>
+    <section class="sections">
     <nav class="fixed-top nav">
         <div class="container-fluid">
-            <div><a href="./">back</a></div>
-          <a class="logo my-2" href="#"><img src="images/logo.png" class="logo-img"></a>
+            <div style="float: left;"><a href="./" class="anchor-btn" style="color: #1f1f1f; font-weight:bold; padding:15px;">Back</a></div>
+          <div><a class="logo" href="#"><img src="images/logo.png" class="logo-img"></a></div>
         </div>
     </nav>
 
-    <h1>Customize your item</h1>
+    <h1 class="header-text">Customize your item</h1>
     
-    <div class="container w-100" style="background-color: rgb(160, 115, 55); height:15em;">
-        <label>Choose product
-        </label>
-        <select>
-            <option value="1">1</option>
+    <div class="form-section">
+    <div class="container-fluid form-container">
+        <div class="inputs">
+        <label>Choose product</label><br>
+        <select class="option-input">
+            <option value="Scrunchie">Scrunchie</option>
+        </select>
+        <label>Choose design type</label><br>
+        <select class="option-input">
+            <option value="Thin">Thin</option>
         </select>
     </div>
-
+    </div>
+</div>
     <a href="#"><button>Next</button></a>
+</section>
 </body>
 </html>
