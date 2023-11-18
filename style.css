@@ -191,7 +191,11 @@ body{
 }
 
 .whatsapp{
-    display:flex; justify-content:flex-end; padding:10px; padding-bottom:0; width:10em;
+    display:flex;
+    justify-content:flex-end; 
+    padding:10px; 
+    padding-bottom:0;
+    width:10em;
 }
 
 .email{

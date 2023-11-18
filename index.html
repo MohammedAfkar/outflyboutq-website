@@ -11,7 +11,7 @@
   <div class="sections">
     <nav class="fixed-top nav">
         <div class="container-fluid">
-          <a class="logo my-2" href="#"><img src="images/logo.png" class="logo-img"></a>
+          <a class="logo my-2" href="https://instagram.com/outflyboutq?igshid=OGQ5ZDc2ODk2ZA=="><img src="images/logo.png" class="logo-img"></a>
         </div>
     </nav>
 
@@ -39,7 +39,7 @@
           <ul><li class="card-text productcard-text">Pack contains 2pieces</li></ul>
           <div class="pricetags">
           <h5 class="pricetag">30Rs/pc</h5><h6 class="pricetag-strike"><s class="strike">60Rs/pc</s></h6><div class="discount">50% OFF</div></div>
-          <a href="#" class="btn btn-primary" style="background-color:#FF0066;">Buy now</a>
+          <button onclick="send()" class="btn btn-primary" style="background-color:#FF0066; border:none;">Buy now</button>
         </div>
       </div>
 
@@ -50,7 +50,7 @@
           <ul><li class="card-text productcard-text">Pack contains 2pieces</li></ul>
           <div class="pricetags">
           <h5 class="pricetag">30Rs/pc</h5><h6 class="pricetag-strike"><s class="strike">60Rs/pc</s></h6><div class="discount">50% OFF</div></div>
-          <a href="#" class="btn btn-primary" style="background-color:#FF0066;">Buy now</a>
+          <a href="#" class="btn btn-primary" style="background-color:#FF0066; border:none;">Buy now</a>
         </div>
       </div>
 
@@ -61,7 +61,7 @@
           <ul><li class="card-text productcard-text">Pack contains 2pieces</li></ul>
           <div class="pricetags">
           <h5 class="pricetag">30Rs/pc</h5><h6 class="pricetag-strike"><s class="strike">60Rs/pc</s></h6><div class="discount">50% OFF</div></div>
-          <a href="#" class="btn btn-primary" style="background-color:#FF0066;">Buy now</a>
+          <a href="#" class="btn btn-primary" style="background-color:#FF0066; border:none;">Buy now</a>
         </div>
       </div>
 
@@ -72,7 +72,7 @@
           <ul><li class="card-text productcard-text">Pack contains 2pieces</li></ul>
           <div class="pricetags">
           <h5 class="pricetag">30Rs/pc</h5><h6 class="pricetag-strike"><s class="strike">60Rs/pc</s></h6><div class="discount">50% OFF</div></div>
-          <a href="#" class="btn btn-primary" style="background-color:#FF0066;">Buy now</a>
+          <a href="#" class="btn btn-primary" style="background-color:#FF0066; border:none;">Buy now</a>
         </div>
       </div>
       <div class="card product-cards col-6 mx-auto" style="width: 20rem;">
@@ -82,7 +82,7 @@
           <ul><li class="card-text productcard-text">Pack contains 2pieces</li></ul>
           <div class="pricetags">
           <h5 class="pricetag">30Rs/pc</h5><h6 class="pricetag-strike"><s class="strike">60Rs/pc</s></h6><div class="discount">50% OFF</div></div>
-          <a href="#" class="btn btn-primary" style="background-color:#FF0066;">Buy now</a>
+          <a href="#" class="btn btn-primary" style="background-color:#FF0066; border:none;">Buy now</a>
         </div>
       </div>
       <div class="card product-cards col-6 mx-auto" style="width: 20rem;">
@@ -92,7 +92,7 @@
           <ul><li class="card-text productcard-text">Pack contains 2pieces</li></ul>
           <div class="pricetags">
           <h5 class="pricetag">30Rs/pc</h5><h6 class="pricetag-strike"><s class="strike">60Rs/pc</s></h6><div class="discount">50% OFF</div></div>
-          <a href="#" class="btn btn-primary" style="background-color:#FF0066;">Buy now</a>
+          <a href="#" class="btn btn-primary" style="background-color:#FF0066; border:none;">Buy now</a>
         </div>
       </div>
 
@@ -103,12 +103,21 @@
     <footer class="foot">
       <a href="https://instagram.com/outflyboutq?igshid=OGQ5ZDc2ODk2ZA==" class="anchor-btn" style="color: #f8f8f8;"><div class="promo">Follow us on instagram for more offers!!</div></a>
       <div class="instagram"><a href="https://instagram.com/outflyboutq?igshid=OGQ5ZDc2ODk2ZA==" class="anchor-btn" style="color: #f8f8f8;"><iconify-icon icon="mdi:instagram" style="color: #f8f8f8; float:left; padding:2px;"></iconify-icon><h6>outflyBoutq</h6></a></div>
-      <div class="whatsapp"><iconify-icon icon="ic:baseline-whatsapp" style="color: #f8f8f8; padding:1.5px; float:left;"></iconify-icon><h6>91 6238 269 962</h6></div>
+      <div class="whatsapp"><a href="https://wa.me/916238269962" class="anchor-btn"><iconify-icon icon="ic:baseline-whatsapp" style="color: #f8f8f8; padding:1.5px; float:left;"></iconify-icon><h6 style="width: 10em;">91 6238 269 962</h6></a></div>
       <div class="email"><iconify-icon icon="material-symbols:mail-outline" style="color: #f8f8f8; padding:2.5px; float:left;"></iconify-icon><h6>outflyBoutq@gmail.com</h6></div>
       <div class="copyright"><iconify-icon icon="ic:baseline-copyright" style="color: #f8f8f8; padding:4px; float:left;"></iconify-icon>All rights reserved by OutflyBoutQ</div>
     </footer>
 
 </div>
+
+<script>
+  function send(){
+    var product = "flower hair clip ";
+    var price = "30Rs/pair ";
+    var url = "https://wa.me/916238269962" + "?text=" + product + price;
+    window.open(url, '_blank').focus();
+  }
+</script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
