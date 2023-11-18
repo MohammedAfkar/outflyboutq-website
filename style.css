@@ -19,6 +19,10 @@ body{
     background-color: #f8f8f8;
 }
 
+.sections{
+    background-color: #f8f8f8;
+}
+
 .nav{
     height: 3em;
     background-color: #ffffff;
@@ -30,9 +34,25 @@ body{
     justify-content: center;
 }
 
+.logo-2{
+    width: 52%;
+    margin: 8px;
+    margin-left: 0;
+}
+
 .logo-img{
     width: 6em;
 }
+
+.back-btn{
+    width: 48%;
+    color: #1f1f1f;
+    font-weight:bold;
+    padding: 14px;
+    float: left;
+}
+
+/* index page */
 
 .banner-section{
     width: 100%;
@@ -65,7 +85,7 @@ body{
 .header-text{
     font-family: 'mochiy pop one';
     text-align: center;
-    margin-bottom: 1em;
+    margin: 0.8em;
 }
 
 .head-text-primary{
@@ -118,12 +138,12 @@ body{
 }
 .products{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 4em;
 }
 
 .product-cards{
-    margin: 2em;
+    margin: 0.5em;
 }
 
 .productcard-title{
@@ -220,20 +240,25 @@ body{
     display:flex; justify-content:center; padding-top:10px;
 }
 
+
+
+/* customize page */
+
 .form-section{
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #f8f8f8;
 }
 
 .form-container{
-    width: 80%;
+    width: 10%;
     padding: 2em;
     background-color: #ffffff;
     display: flex;
     justify-content: flex-start;
     border-radius: 1em;
-    height: 10em;
+    height: 20em;
     font-weight: 600;
 }
 
