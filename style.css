@@ -183,34 +183,21 @@ body{
     justify-content: center;
 }
 
-/*
-.banner{
-    background-color: rgb(255, 255, 255);
-    margin-top: 3.5em;
-    width: 100%;
-    height: 48em;
-    position:absolute;
-    z-index: -20;
+.instagram{
+    float:left;
+    padding:10px;
+    padding-bottom:0;
+    width:10em;
 }
 
-.offerbanner{
-    width: 100%;
-    position:absolute;
-    z-index: -20;
+.whatsapp{
+    display:flex; justify-content:flex-end; padding:10px; padding-bottom:0; width:10em;
 }
 
-.offer-para{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.email{
+    display:flex; justify-content:start; padding:10px;
 }
 
-.button-shop{
-display: flex;
-justify-content: center;
-align-self: flex-end;
+.copyright{
+    display:flex; justify-content:center; padding-top:10px;
 }
-
-
-
-*/
