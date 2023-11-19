@@ -159,26 +159,27 @@ body{
 
 .pricetags{
     width: 100%;
-    height: 2em;
+    height: 1.5em;
     margin-top: -10px;
-    margin-bottom: 8px;
 }
 
 .pricetag{
     font-weight: bold;
     font-size: small;
+    float: left;
 }
 
 .pricetag-strike{
     opacity: 70%;
-    margin-top: -6px;
     float: left;
     font-size: x-small;
-    margin-right: 5px;
+    margin-right: 6px;
+    margin-top: 2.5px;
 }
 
 .strike{
-    margin-left: 2px;
+    margin-left: 5px;
+    
 }
 
 .discount{
