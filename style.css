@@ -139,7 +139,7 @@ body{
 .products{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 4em;
+    margin-bottom: 0.5em;
 }
 
 .product-cards{
@@ -239,6 +239,11 @@ body{
 
 .copyright{
     display:flex; justify-content:center; padding-top:10px;
+}
+
+.view-more{
+    display: flex; justify-content:center;
+    margin-bottom: 2em;
 }
 
 
